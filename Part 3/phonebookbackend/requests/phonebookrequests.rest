@@ -1,0 +1,33 @@
+GET http://localhost:3001/api/persons
+
+###
+GET http://localhost:3001/api/persons/616d89a10efdb518b2c3c4c3
+
+###
+GET http://localhost:3001/info
+
+###
+DELETE http://localhost:3001/api/persons/61702da805973d5d30fbbad6
+
+###
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "An",
+    "number": "021-8732630"
+}
+
+
+###
+PUT http://localhost:3001/api/persons/61702d4a05973d5d30fbbacf
+content-type: application/json
+
+{
+    "name": "R",
+    "number": "0908978786"
+}
+
+
+###
+https://boiling-lake-65286.herokuapp.com/api/persons
