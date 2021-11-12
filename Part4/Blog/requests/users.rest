@@ -1,0 +1,26 @@
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "blogs": [],
+    "username": "mluukai",
+    "name": "Matti Luukkainen",
+    "password": "mluukai"
+}
+
+###
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "blogs": [],
+    "username": "hellas",
+    "name": "Arto Hellas",
+    "password": "hallasarto"
+}
+
+###
+GET http://localhost:3001/api/users
+
+###
+GET http://localhost:3001/api/users/618133f292dd91dade735fb3
